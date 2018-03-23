@@ -1,0 +1,42 @@
+{
+	"name": "mailchump",
+	"version": "0.0.1",
+	"description": "Simple mailchimp subscription microservice",
+	"main": "index.js",
+	"scripts": {
+		"test": "node __tests__/test.js",
+		"dev": "nodemon index.js",
+		"start": "node index.js",
+		"deploy": "now"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/good-idea/mailchump.git"
+	},
+	"keywords": ["mailchimp", "microservice"],
+	"author": "Joseph Thomas",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/good-idea/mailchump/issues"
+	},
+	"homepage": "https://github.com/good-idea/mailchump#readme",
+	"devDependencies": {
+		"eslint": "^4.19.1",
+		"eslint-config-airbnb": "^16.1.0",
+		"eslint-config-prettier": "^2.9.0",
+		"eslint-plugin-import": "^2.9.0",
+		"eslint-plugin-jsx-a11y": "^6.0.3",
+		"eslint-plugin-react": "^7.7.0",
+		"prettier": "^1.11.1"
+	},
+	"dependencies": {
+		"axios": "^0.18.0",
+		"body-parser": "^1.18.2",
+		"dotenv": "^5.0.1",
+		"express": "^4.16.3",
+		"md5": "^2.2.1",
+		"morgan": "^1.9.0",
+		"ramda": "^0.25.0",
+		"validator": "^9.4.1"
+	}
+}
