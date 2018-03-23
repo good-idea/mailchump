@@ -7,7 +7,7 @@
 		"test": "node __tests__/test.js",
 		"dev": "nodemon index.js",
 		"start": "node index.js",
-		"deploy": "now"
+		"deploy": "now && now alias"
 	},
 	"repository": {
 		"type": "git",

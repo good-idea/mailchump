@@ -1,0 +1,9 @@
+{
+	"name": "mailchump",
+	"alias": "good-idea-mailchump",
+	"type": "npm",
+	"public": false,
+	"engines": {
+		"node": "^8.10.0"
+	}
+}
